@@ -13,16 +13,12 @@ const reverseVowels = function(s) {
     }
     
     console.log(vowelsInWord)
-    //vowelsInWord.reverse()
 
     const splitted = s.split("")
     // 2. place the vowel of [length - N] to N
     for(let i = 0; i < splitted.length; i++) {
-        console.log(splitted)
-        console.log(vowelsInWord)
         if(vowels.includes(splitted[i].toLowerCase())) {
             const popped = vowelsInWord.pop()
-            console.log(popped)
             splitted[i] = popped
         }
     }

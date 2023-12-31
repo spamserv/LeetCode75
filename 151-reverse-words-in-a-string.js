@@ -41,10 +41,7 @@ Follow-up: If the string data type is mutable in your language, can you solve it
  */
 const reverseWords = function(s) {
     const splitted = s.trim().split(" ")
-    
-
     const filtered = splitted.filter(val => val !== "")
-    console.log(filtered)
     return filtered.reverse().join(" ")
 };
 
