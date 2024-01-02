@@ -18,7 +18,3 @@ var gcdOfStrings = function(str1, str2) {
         return divisor(len2, len1 % len2)
     }
 };
-
-gcdOfStrings("ABCABCABC","ABC")
-gcdOfStrings("ABABAB","AB")
-gcdOfStrings("LEET", "CODE")
