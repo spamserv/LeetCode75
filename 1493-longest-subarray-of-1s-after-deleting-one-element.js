@@ -72,13 +72,3 @@ const longestSubarray = function(nums) {
 console.log(longestSubarray([0,1,1,0,1])) // 3
 console.log(longestSubarray([0,1,1,1,0,1,1,0,1])) // 5
 console.log(longestSubarray([1,1,1])) // 2
-
-    // if value is 0, remember the leftIndex, if value is 1, continue & increment rightIndex
-
-    // when next value is 0, do rightIndex - leftIndex to get total number of 1s
-
-    // if total > max then max = total
-
-    // set the leftIndex at the current rightIndex
-
-    // increment rightIndex
